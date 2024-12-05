@@ -1,5 +1,5 @@
 # ChekerProxysBsz
-### Análisis y Comprobación de Proxies (IPs con Puertos)
+## Análisis y Comprobación de Proxies (IPs con Puertos)
 
 Este código en JavaScript permite validar, clasificar y comprobar proxies (IPs con puertos) mediante diversas funciones que verifican su formato, rango, y accesibilidad. A continuación, se describen las funcionalidades principales:
 
