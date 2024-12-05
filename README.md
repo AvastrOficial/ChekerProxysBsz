@@ -35,6 +35,9 @@ El código extrae las IPs de un texto y las clasifica en tres categorías:
 
 El código permite crear un archivo `.zip` que contiene los resultados de las IPs vivas, muertas y no válidas en archivos `.txt`, utilizando **JSZip** para la compresión. El archivo `.zip` se genera y se descarga automáticamente.
 
+## Api 
+Utilizando para validar las ip : https://httpbin.org/ip
+
 ## Resumen
 
 Este código facilita el análisis de una lista de proxies, su clasificación según su estado (vivas, muertas, no válidas), y su verificación de accesibilidad. Los resultados se muestran en una interfaz web y se pueden descargar como archivos comprimidos `.zip` con los detalles de las IPs.
