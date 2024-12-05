@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+
+    <title>Proxy Checker Bsz</title>
+</head>
+<body>
+
+<h1>Proxy Checker Bsz</h1>
+<p>Introduce una lista de proxies separados por comas:</p>
+<textarea id="proxyList" rows="10" cols="50" placeholder="36.111.142.184:15778 , 103.80.230.26:8090"></textarea>
+<br>
+
+<button onclick="startCheck()">Comenzar comprobación</button>
+
+  <button id="downloadBtn">Descargar</button>
+  
+<h2>Resultados:</h2>
+<div id="loadingBarContainer" style="display: none;">
+    Iniciando comprobación...
+    <div id="loadingBar" style="width: 0%; height: 20px; background-color: #4caf50;"></div>
+</div>
+<div id="output"></div>
+
+<br>
+<!-- Contenedores para las IPs -->
+<div class="ip-containers-wrapper">
+    <div class="ip-container vivas">
+        <h3>IPs Vivas (0)</h3>
+        <div class="vivasList"></div>
+    </div>
+    <div class="ip-container muertas">
+        <h3>IPs Muertas (0)</h3>
+        <div class="muertasList"></div>
+    </div>
+    <div class="ip-container noValidas">
+        <h3>IPs No Válidas (0)</h3>
+        <div class="noValidasList"></div>
+    </div>
+</div>
+  
+</script>
+
+</body>
+</html>
